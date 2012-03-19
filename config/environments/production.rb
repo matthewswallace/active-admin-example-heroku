@@ -21,7 +21,7 @@ DlabApp::Application.configure do
   config.assets.digest = true
   
   #activeadmin needs this
-  config.action_mailer.default_url_options = { :host => 'dlab.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'blooming-light-4678.herokuapp.com' }
   
   #activeadmin needs this to pre compile
   config.assets.precompile += %w[active_admin.css active_admin.js]
